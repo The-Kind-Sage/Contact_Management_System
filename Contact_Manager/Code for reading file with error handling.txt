@@ -1,0 +1,7 @@
+ try:
+                                    
+              with open(file_path,"r") as file: #Here 'file_path' is the directory which is input by user. 
+                    content = file.read()
+                    print("\n Your Contacts: \n--------------") and  print( content)
+        except:
+            print("Contacts have not yet been saved.")

@@ -1,0 +1,15 @@
+import os
+
+directory= input("Enter where you want to save the contact")
+
+if not os.path.exists(directory):
+    print ("Location does not exist")
+else:
+    file_path = os.path.join(directory, "contact.txt")
+    
+    with open(file_path,"w") as file:
+        for name, no in contacts.items():
+           
+            file.write(f"\n| Name:{name} |\n| Phone No:{no} |")
+        
+    print ("Your all contact has been sucessfully saved.")
