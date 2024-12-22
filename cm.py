@@ -21,7 +21,7 @@ while True:
                     ncn=int(input("Enter new contact number: "))
                     contacts[updt] = ncn
                                    
-                    print(f"\n Contact '{name}' updated  successfully! \n")
+                    print(f"\n Contact '{updt}' updated  successfully! \n")
             
                 else:
                     print(f"\n No contact found with the name '{updt}'.")
