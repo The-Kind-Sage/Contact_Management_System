@@ -1,4 +1,6 @@
 # Contact_Management_System
+Hello, World! 
 This is my first project in python. As the name describes, this program manage general tasks that is available in any usual contact manager.
 You can add, update, delete, or view any contact using this program.
-Hello, World! 
+There are two version of program in this repository: one without file handeling and another with.
+Happy Coding:)
