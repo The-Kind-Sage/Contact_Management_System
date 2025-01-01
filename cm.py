@@ -8,13 +8,13 @@ contacts={}
 while True:
     z=input(" \n\n Kindly Enter Your Choice: ")
     
-    if z=="1":
+    if choice=="1":
             
             name=input("Enter Contact Name: ")
             no=int(input("Enter Contact Number: "))
             contacts[name] = no
             print(f"\nContact '{name}' added successfully! \n")
-    elif z=="2":
+    elif choice=="2":
             
                 updt=input("Enter the name of the contact to update:")
                 if updt in contacts:
@@ -26,18 +26,18 @@ while True:
                 else:
                     print(f"\n No contact found with the name '{updt}'.")
             
-    elif z=="3":
+    elif choice=="3":
              
                 deln=input("Enter the name of the contact to delete:")
             
                 if deln in contacts:
                     del contacts[deln]
-                    print(f"\n Contact '{name}' deleted successfully! \n")
+                    print(f"\n Contact '{deln}' deleted successfully! \n")
             
                 else:
                     print(f"\nNo contact found with the name '{deln}'.")
             
-    elif z=="4":
+    elif choice=="4":
         if contacts:
               print("\n Your Contacts: " )
               print(" --------------\n")
@@ -46,7 +46,7 @@ while True:
         else:
             print("You have no contacts")
             
-    elif z=="5":
+    elif choice=="5":
         print("\n Exiting Contact Manager, Have a wonderful day ahead :)")
         print(" ***************************************************")
         break
