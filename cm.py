@@ -6,7 +6,7 @@ print(" 1. Add Contact\n 2. Update Contact \n 3. Delete Contact\n 4. View Contac
 contacts={}
 
 while True:
-    z=input(" \n\n Kindly Enter Your Choice: ")
+    choice=input(" \n\n Kindly Enter Your Choice: ")
     
     if choice=="1":
             
